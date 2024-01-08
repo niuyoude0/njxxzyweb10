@@ -1,0 +1,139 @@
+<html>
+  <head>
+	  <meta charset="UTF-8" />
+	  <title>我和冬季的南信院</title>
+	  <link rel="stylesheet" type="text/css">
+	  <style>
+		  .aaa{background-color: skyblue;
+		  text-align: center;
+		  }
+		 .nav{
+			 display: flex;
+			 width: 330px;
+			 height: 50px;
+			 background-color: aqua;
+			 margin:auto ;
+			 font-size: 40px;
+			 letter-spacing: 15px;
+		 }
+		 .box{
+			width: 500px;
+			height: 2500px;
+			overflow: hidden;
+			margin: auto;
+			display: flex;
+		 }
+		 .content{
+			 width: 500px;
+			 height: 2500px;
+			 flex-shrink: 0;
+		 }
+		 #content1{
+			 background-color:paleturquoise;
+		 }
+		 #content2{
+			 background-color: paleturquoise;
+		 }
+		 #content3{
+			 background-color: paleturquoise;
+		 }
+		 body{
+			 display: flex;
+			 flex-direction: column;
+			 align-items: center;
+			 background-color: rgb(117, 113, 113);
+			 color: aliceblue;
+		 }
+		 #main{
+			 flex: 1;
+			 width: 60%;
+		 }
+		 #typing{
+			 flex: 1;
+			 width: 60%;
+			 height: 20vh;
+			 border: red;
+			 font-size: xx-large;
+		 }
+		 #commend{
+			 flex: 1;
+			 width: 80%;
+		 }
+		 #btn{
+			 background-color: red;
+		 }
+		 p{
+			 background-color: black;
+		 }
+	  </style>
+  </head>
+  <body>
+	  <div class="aaa">
+		  <p style="font-size: 50px;">冬季的南信院</p>
+		  <p style="font-size: 20px;">期待雪，更期待有你的冬天</p>
+		  <img src="logo.png" >
+	  </div>
+	  <nav>
+		  <div class="nav">
+			  <a href="#content1" id="nav1">琼妃</a>
+			  <a href="#content2" id="nav2">凝雨</a>
+			  <a href="#content3" id="nav3">寒英</a>
+		  </div>
+	  </nav>
+	  <section>
+		  <div class="box">
+			  <div id="content1" class="content">
+				  <p style="font-size: 20px;">何时杖尔看南雪，我与梅花两白头</p>
+				  <img src="微信图片_20231223144629.jpg" width="500px" height="500px">
+				  <img src="微信图片_20231223144650.jpg" width="500px" height="500px">
+				  <p style="font-size: 20px;">堆雪人，已经成为了我们在冬天最重要的活动之一，
+				  每当一个个雪人堆起来的时候，我们就由衷感叹，自己的创造力，
+				  仿佛自己孕育出了一个新的生命。</p>
+				  <img src="微信图片_20231223144646.jpg" width="500px" height="500px">
+				  <img src="微信图片_20231223144638.jpg" width="500px" height="500px">
+				  <p style="font-size: 20px;">不知道从何时起，我们不再去堆雪人，但是偶尔遇
+				  到路边的雪人，我们还会停下脚步，凝视它一会，然后会心的一笑。</p>
+			  </div>
+			  <div id="content2" class="content">
+				  <p style="font-size: 20px;">朔风吹散三更雪，倩魂犹恋桃花月</p>
+				  <img src="微信图片_20231223152042.jpg" width="500px" height="500px">
+				  <img src="微信图片_20231223152051.jpg" width="500px" height="500px">
+				  <p style="font-size: 20px;">层层的松枝，戴着白绒般的很厚的雪，沉沉下垂，不时的掉下一两片手掌大的雪块，
+				  无声的堆在雪地上。</p>
+				  <img src="微信图片_20231223152054.jpg" width="500px" height="500px">
+				  <img src="微信图片_20231223152057.jpg" width="500px" height="500px">
+				  <p style="font-size: 20px;">我喜欢，喜欢白雪皑皑的冬天，因为冬天可欢乐地打雪仗。我喜欢，喜欢鹅毛大雪的冬天。
+				  因为冬雪是那么赏心悦目。冬天给人们带来异常的惊喜，北国风光是那么吸引游客。
+				  人们在雪地里尽情地划着雪橇，欢乐的笑声响彻云霄。</p>
+			  </div>
+			  <div id="content3" class="content">
+				  <p style="font-size: 20px;">霰淅沥而先集，雪粉糅而遂多</p>
+				  <video src="661c2b64f87aad1d3d16bf8cd9424ab1.mp4" width="500px"
+				   height="500px" autoplay="autoplay" loop="loop" controls="controls"></video>
+				   <img src="微信图片_20231223154939.jpg" width="500px" height="500px">
+				  <p style="font-size: 20px;">下雪天，要跟心爱的人走一走，因为一不小心就白了头</p>
+				  <video src="aefd762a22891a67d4eaeef2b36d94ba.mp4" width="500px"
+				   height="500px" autoplay="autoplay" loop="loop" controls="controls"></video>
+				  <img src="微信图片_20231223154930.jpg" width="500px" height="500px">
+				  <p style="font-size: 20px;">雪花纷飞，进补人家风味，盏话清谈，悟得世间温情</p>
+			  </div>
+		  </div>
+	  </section>
+	  <div id="main">
+		  <h1>评论区</h1><hr>
+		  <textarea id="typing">输入文字</textarea>
+		  <button id="btn">发送评论</button>
+		  <div id="commend"></div>
+	  </div>
+  </body>
+  <script>
+	  document.getElementById("btn").onclick=function(){send()};
+	  function send(){
+		  var g=new Date();
+		  var value=document.getElementById("typing").value;
+		  var p=document.createElement("p");
+		  p.innerHTML="用户: " +value+'<hr>'+g.toUTCString();
+		  document.getElementById("commend").prepend(p);
+	  }
+  </script>
+  </html>
